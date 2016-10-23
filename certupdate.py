@@ -14,7 +14,7 @@ rootkey = '/etc/letsencrypt/live/your.mumbledomain.com/privkey.pem'
 keyF = open(rootkey)
 keyS = keyF.read()
 keyF.close()
-#print(certH)
+#print(keyS)
 
 #Leave the passhprase field empty (no space) if you don't use one.
 passphrase = 'YOUR PASSPHRASE'
