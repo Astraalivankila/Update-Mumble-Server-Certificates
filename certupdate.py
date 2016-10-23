@@ -11,12 +11,12 @@ certF.close()
 #print(certS)
 
 rootkey = '/etc/letsencrypt/live/your.mumbledomain.com/privkey.pem'
-certK = open(rootkey)
-certH = certK.read()
+keyF = open(rootkey)
+keyS = keyF.read()
 certK.close()
 #print(certH)
 
 #Leave the passhprase field empty (no space) if you don't use one.
 passphrase = 'YOUR PASSPHRASE'
 
-s1.updateCertificate(certS, certH, passphrase)
+s1.updateCertificate(certS, keyS, passphrase)
