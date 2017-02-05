@@ -3,6 +3,7 @@ A script for updating SSL key and certificate on the fly with no reboot for Mumb
 
 Depends on [Mice](https://wiki.mumble.info/wiki/Mice) and Python.
 
+###**PLEASE NOTE: REQUIRES MUMBLE SERVER >1.3.**
 
 ## Usage
 
